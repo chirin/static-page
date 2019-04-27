@@ -1,6 +1,7 @@
 # static-page
 
 - HOW-TO
+  - https://www.gwtcenter.com/creating-github-pages-maven-repo
   - https://www.gwtcenter.com/post-3842
 
 - SEE HTML
