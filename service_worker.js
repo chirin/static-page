@@ -1,9 +1,9 @@
 // ServiceWorker処理：https://developers.google.com/web/fundamentals/primers/service-workers/?hl=ja
 
 // キャッシュ名とキャッシュファイルの指定
-var CACHE_NAME = 'pwa-sample-caches123';
+var CACHE_NAME = 'pwa-sample-caches456';
 var urlsToCache = [
-    '/chirinland-kitty.netlify.com/',
+    '/chirin.github.io/',
 ];
 
 // インストール処理
