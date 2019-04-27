@@ -7,19 +7,63 @@
   <link rel="manifest" href="./manifest.json">
   <link rel="shortcut icon" href="./favicon.ico">
   <title>PWA Sample on GitHub</title>
+
+  <!-- @see https://qiita.com/_mochi_fuwa/items/8b69e1a0585fa9c6bcac -->
+  <script src="//cdn.jsdelivr.net/npm/vue"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/push.js/1.0.9/push.min.js"></script>
+  <script>
+    Push.Permission.request(onGranted, onDenied);
+
+    function onGranted() {
+      console.log('Push.Permission Granted!');
+    }
+
+    function onDenied() {
+      console.log('Push.Permission Denied...');
+    }
+  </script>
 </head>
 
 <body>
-  <h3>PWA Sample on GitHub</h3>
-  <p>2019-04-27</p>
-  <img src="./images/kero.jpg" alt="my-icon" />
+  <h3>PWA Sample on Surge</h3>
+  <p>2019-04-28</p>
+  <img src="./images/icon.jpg" alt="my-icon" />
   <script src="./service_worker-register.js"></script>
-  
-  <h3>Push.js Sample</h3>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.7/push.min.js"></script>
-  <script type="text/javascript">
-    Push.create('Push 通知だよ！');
+
+  <hr />
+  <script>
+    Push.create('Push通知だよ！', {
+      body: "クリックして Yahoo! へ Go!",
+      icon: './images/icon.jpg',
+      timeout: 10000,
+      onClick: function () {
+        location.href = 'https://yahoo.co.jp';
+        this.close();
+      }
+    });
   </script>
+  <div>
+    <div id="app">
+      <h3>{{ message }}</h3>
+      <button v-on:click="pushMessage">いま何時？</button>
+    </div>
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Push.js Sample'
+        },
+        methods: {
+          pushMessage: function () {
+            var date = new Date().toString();
+            Push.create(date, {
+              icon: './images/icon.jpg'
+            });
+          }
+        }
+      });
+    </script>
+  </div>
 </body>
 
 </html>
