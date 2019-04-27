@@ -27,14 +27,14 @@
 <body>
   <h3>PWA Sample on Surge</h3>
   <p>2019-04-28</p>
-  <img src="./images/icon.jpg" alt="my-icon" />
+  <img src="./images/kero.jpg" alt="my-icon" />
   <script src="./service_worker-register.js"></script>
 
   <hr />
   <script>
     Push.create('Push通知だよ！', {
       body: "クリックして Yahoo! へ Go!",
-      icon: './images/icon.jpg',
+      icon: './images/kero.jpg',
       timeout: 10000,
       onClick: function () {
         location.href = 'https://yahoo.co.jp';
@@ -57,7 +57,7 @@
           pushMessage: function () {
             var date = new Date().toString();
             Push.create(date, {
-              icon: './images/icon.jpg'
+              icon: './images/kero.jpg'
             });
           }
         }
