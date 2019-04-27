@@ -2,12 +2,12 @@
 
 - HOW-TO
   - GitHub Pages を使った静的サイトの公開方法が、とても簡単になっていた
-    https://www.tam-tam.co.jp/tipsnote/html_css/post11245.html
+    - https://www.tam-tam.co.jp/tipsnote/html_css/post11245.html
     
   - GitHubにMavenリポジトリを作り、GitHub Pagesで公開する
-    https://www.gwtcenter.com/creating-github-pages-maven-repo
+    - https://www.gwtcenter.com/creating-github-pages-maven-repo
   - GitLab Pagesで静的コンテンツを公開する
-    https://www.gwtcenter.com/post-3842
+    - https://www.gwtcenter.com/post-3842
 
 - SEE HTML
   - https://chirin.github.io/static-page/
