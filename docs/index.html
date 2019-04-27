@@ -6,15 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <link rel="manifest" href="./manifest.json">
-  <link rel="shortcut icon" href="/static-page/favicon.ico">
+  <link rel="shortcut icon" href="./favicon.ico">
   <title>PWA Sample on GitHub</title>
 </head>
 
 <body>
-  <div id="app">
-    <p>{{ message }}</p>
-    <button v-on:click="reverseMessage">Reverse Message</button>
-  </div>
+  <h3>PWA Sample on GitHub</h3>
+  <p><img src="./images/icon.jpg" alt="my-icon" /></p> 
   <script>
     // ServiceWorker登録：https://developers.google.com/web/fundamentals/primers/service-workers/?hl=ja
     if ('serviceWorker' in navigator) {
@@ -24,17 +22,6 @@
         console.log('ServiceWorker registration failed: ', err);
       });
     }
-    var app = new Vue({
-      el: '#app',
-      data: {
-        message: 'Hello Vue!'
-      },
-      methods: {
-        reverseMessage: function () {
-          this.message = this.message.split('').reverse().join('')
-        }
-      }
-    });
   </script>
 </body>
 
