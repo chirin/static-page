@@ -7,9 +7,9 @@
 
 - SEE HTML
   - https://chirin.github.io/static-page/
-  - https://chirin.github.io/static-page/images/icon.jpg
+  - https://chirin.github.io/static-page/images/icon.png
 
-  - ![FACE](/images/icon.jpg)
+  - ![FACE](/images/icon.png)
 
 - ETC
   - PWABuilder
