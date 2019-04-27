@@ -3,7 +3,7 @@
 // キャッシュ名とキャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches456';
 var urlsToCache = [
-    '/chirin.github.io/',
+    '/static-page/',
 ];
 
 // インストール処理
