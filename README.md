@@ -1,7 +1,5 @@
 # static-page
 
-# static-html
-
 - HOW-TO
   - https://www.gwtcenter.com/post-3842
 
@@ -10,6 +8,7 @@
   - https://chirin.github.io/static-page/images/kero.jpg
 
   - ![FACE](/images/kero.jpg)
+  - ![FACE](/images/icon.jpg)
 
 - ETC
   - PWABuilder
