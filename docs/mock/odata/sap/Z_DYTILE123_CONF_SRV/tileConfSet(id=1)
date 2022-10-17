@@ -1,12 +1,12 @@
 {
   "icon": "sap-icon://cart-5",
   "info": "EXIST",
-  "infoState":"Negative",
+  "infoState": "Negative",
   "number": 314159.26535,
   "numberDigits": 3,
   "numberState": "Negative",
   "numberUnit": "pieces",
-  "stateArrow":"Down",
+  "stateArrow": "Down",
   "subtitle": "at GitHub",
   "title": "No-Send",
   "id": 1
