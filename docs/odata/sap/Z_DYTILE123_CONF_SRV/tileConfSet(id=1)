@@ -1,1 +1,13 @@
-d
+{
+  "icon": "sap-icon://cart-5",
+  "info": "EXIST",
+  "infoState":"Negative",
+  "number": 314159.26535,
+  "numberDigits": 3,
+  "numberState": "Negative",
+  "numberUnit": "pieces",
+  "stateArrow":"Down",
+  "subtitle": "at GitHub",
+  "title": "No-Send",
+  "id": 1
+}
