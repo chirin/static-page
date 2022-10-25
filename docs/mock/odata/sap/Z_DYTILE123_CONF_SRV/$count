@@ -1,5 +1,5 @@
 {
-  "icon": "sap-icon://cart-5",
+  "icon": "sap-icon://world",
   "info": "EXIST",
   "infoState": "Negative",
   "number": 3141592.6535,
@@ -8,6 +8,6 @@
   "numberUnit": "pieces",
   "stateArrow": "Down",
   "subtitle": "at GitHub",
-  "title": "No-Send",
+  "title": "static-json",
   "id": 1
 }
