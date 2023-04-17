@@ -1,7 +1,7 @@
 {
   "icon": "sap-icon://world",
   "info": "EXIST",
-  "infoState": "Negative",
+  "infoState": "Positive",
   "number": 3141592.6535,
   "numberDigits": 3,
   "numberState": "Negative",
